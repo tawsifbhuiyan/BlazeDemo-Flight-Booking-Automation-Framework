@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Flight Booking Test Suite">
+    
+    <test name="Chrome - Flight Search Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="tests.FlightSearchTest"/>
+        </classes>
+    </test>
+    
+    <test name="Chrome - Booking Flow Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="tests.BookingFlowTest"/>
+        </classes>
+    </test>
+    
+</suite>

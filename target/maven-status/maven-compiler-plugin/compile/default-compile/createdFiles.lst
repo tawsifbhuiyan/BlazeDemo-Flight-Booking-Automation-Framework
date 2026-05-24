@@ -1,0 +1,5 @@
+pages\BasePage.class
+pages\PassengerPage.class
+pages\ConfirmationPage.class
+pages\FlightsPage.class
+pages\HomePage.class
