@@ -40,7 +40,10 @@ This isn't just another Selenium project—it's a **complete QA engineering show
 
 ---
 
-## 🏗️ Framework ArchitectureBlazeDemo-Framework/
+## 🏗️ Framework Architecture
+
+```
+BlazeDemo-Framework/
 ├── src/main/java/
 │   ├── pages/              # Page Object Models
 │   │   ├── HomePage.java
@@ -65,6 +68,7 @@ This isn't just another Selenium project—it's a **complete QA engineering show
 ├── test-output/            # Reports & screenshots
 ├── testng.xml              # Test execution config
 └── pom.xml                 # Maven dependencies
+```
 
 ---
 
